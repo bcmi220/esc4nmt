@@ -1,9 +1,12 @@
 import copy
 import logging
 from typing import Any, Dict, List
-import torch.nn as nn
 
+import numpy as np
 import torch
+import torch.nn as nn
+import torch.nn.functional as F
+
 from fairseq import utils
 from fairseq.data import encoders
 from fairseq.models import (
