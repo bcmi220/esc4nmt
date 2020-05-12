@@ -2,7 +2,7 @@ import argparse
 import os
 from tqdm import tqdm
 import torch
-from fairseq.models import ESCModel
+from fairseq.models.esc_model import ESCModel
 
 if __name__ == '__main__':
 
