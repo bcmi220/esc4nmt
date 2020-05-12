@@ -4,6 +4,7 @@ import torch.nn as nn
 
 import torch
 from fairseq import utils
+from fairseq.data import encoders
 from fairseq.models import (
     register_model,
     register_model_architecture,
