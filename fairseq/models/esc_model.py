@@ -2,6 +2,7 @@ import logging
 from typing import Any, Dict, List
 import torch.nn as nn
 
+import torch
 from fairseq import utils
 from fairseq.models import (
     register_model,
