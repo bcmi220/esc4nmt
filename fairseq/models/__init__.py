@@ -19,8 +19,6 @@ from .fairseq_model import (
     FairseqMultiModel,
 )
 
-from .esc_model import ESCModel
-
 from .composite_encoder import CompositeEncoder
 from .distributed_fairseq_model import DistributedFairseqModel
 
